@@ -1,0 +1,34 @@
+// GRID
+$col-1: calc(100% / 12);
+
+// BG-COLOR
+$bg-color:unset; // Valeur par default
+$bg-success:rgba(0, 128, 0, 1);
+$bg-primary:rgba(0, 0, 255, 1);
+$bg-danger: rgba(255, 0, 0, 1);
+$bg-warning: rgba(255, 255, 0, 1);
+$bg-light: rgba(128, 128, 128, 1);
+
+// BG-LIGHT-COLOR
+$bg-l-color:unset; // Valeur par default
+$bg-l-success:rgba(0, 128, 0, 0.5);
+$bg-l-primary:rgba(0, 0, 255, 0.5);
+$bg-l-danger: rgba(255, 0, 0, 0.5);
+$bg-l-warning: rgba(255, 255, 0, 0.5);
+$bg-l-light: rgba(128, 128, 128, 0.5);
+
+// COLOR
+$colorMemory:"";
+$color:unset; // Valeur par default
+$color-success:rgb(0, 128, 0);
+$color-primary:rgb(0, 0, 255);
+$color-danger: rgb(255, 0, 0);
+$color-warning: rgb(255, 255, 0);
+$color-light: rgb(128, 128, 128);
+
+// SIZE
+$size-xs:1rem;
+$size-sm:2rem;
+$size-md:3rem; // Valeur par default
+$size-lg:4rem;
+$size-xl:5rem;

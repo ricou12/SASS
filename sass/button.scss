@@ -1,0 +1,57 @@
+/* BEM */
+
+/* Block */
+.btn {
+    // border-color: $color;
+    // color: $color;
+    text-decoration: none;
+    border: 1px solid;
+    font-size: 1.2em;
+    border-radius: 5px;
+    padding: 0.7rem;
+
+    &--success {
+        border-color: $color-success;
+        color: $color-success;
+        &:active {
+            background-color:$bg-l-success;
+        }
+    }
+
+    &--primary {
+        border-color: $color-primary;
+        color: $color-primary;
+        &:active {
+            background-color:$bg-l-primary;
+        }
+    }
+
+    &--danger {
+        border-color: $color-danger;
+        color: $color-danger;
+        &:active {
+            background-color:$bg-l-danger;
+        }
+    }
+
+    &--warning {
+        border-color: $color-warning;
+        color: $color-warning;
+        &:active {
+            background-color:$bg-l-warning;
+        }
+    }
+
+    &--light {
+        border-color: $color-light;
+        color: $color-light;
+        &:active {
+            background-color:$bg-l-light;
+        }
+    }
+}
+
+.btn:hover {
+    box-shadow: 3px 3px 10px 1px rgba(8, 8, 8, 0.4);
+}
+
